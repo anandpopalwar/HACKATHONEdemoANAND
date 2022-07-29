@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner:wght@500;700&family=Mochiy+Pop+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner:wght@500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner:wght@500&display=swap');
+body{
+    /* bac
+    kground-color: darkgray; */background: rgb(27,22,22);
+background: radial-gradient(circle, rgba(27,22,22,1) 0%, rgba(33,42,43,1) 100%);
+    /* background-image: url(./speedfood2.avif); */
+    /* 
+    /* background-size:100%; */
+    align-items: center;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.pagecontainer{
+    background-color: black;
+    background-image: url(./speedfood1.avif);
+    background-blend-mode:lighten; 
+    height: 650px;
+    background-size:100%;
+    border-radius: 50px;
+    /* padding: 50px; */
+    /* margin: 0px; */
+    width: 70%;
+    margin: 50px auto;
+    padding: 50px;
+    /* display: flex; */
+    color: snow;
+}
+.container{
+    padding-top: 3%;
+    padding: 50px;
+    /* text-align: baseline; */
+    /* display: flex; */
+    /* justify-content: center; */
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+    align-items: center;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 40px;
+}
+.p1{
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+}
+.btn{
+    padding: 5px 25px;
+    font-size: 30px;
+    border-radius:70px ;
+    background-color: none;
+        border: none;
+        margin-top: 50px;
+    /* text-color: blueviolet; */
+     font-family: 'Edu VIC WA NT Beginner', cursive;
+    /* font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; */
+    color: rgb(0, 0, 0);
+}
+.cardcontainer{
+    display: flex;
+}
+.card{
+    border: 0px ;
+    background-color: blueviolet;
+    width: 400px;
+    height: 400px;
+    margin: 30px auto;
+    border-radius: 25px;
+    padding: 10px;
+    /* display: flex; */
+}
+.cardimg1{
+    border-radius: 25px;
+    /* border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0; */
+    width: 100%;
+    image-resolution: cover;
+}
+.cardbtn{
+    padding: 10px 15px;
+    font-size: 10px;
+    border-radius:10px ;
+    background-color: black;
+    border: none;
+    /* font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; */
+    color: snow;
+}
+.cardhead{
+    position:relative;
+}
+.rate{
+    /* height: 2px; */
+    position: absolute;
+    bottom: 0;
+    margin: 20px;
+    color: rgb(0, 0, 0);
+    border: 2px;
+    background-color: blueviolet;
+    border-radius: 15px;
+    padding: 5px 15px;
+}
+.h1{
+    text-align: center;
+    font-size: 50px;
+    color: blueviolet;
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+}
+.head1{
+    background-color: coral;
+    text-align: center;
+}
+.head2{
+    background-color: rgb(49, 125, 36);
+    text-align: center;
+}
+.card1{
+    border: 0px ;
+    background-color:lightcoral;
+    width: 400px;
+    height: 400px;
+    margin: 30px auto;
+    border-radius: 25px;
+    padding: 10px;
+    position: relative;
+    /* display: flex; */
+}
+.card2{
+    border: 0px ;
+    background-color:rgb(60, 146, 31);
+    width: 400px;
+    height: 400px;
+    margin: 30px auto;
+    border-radius: 25px;
+    padding: 10px;
+    /* display: flex; */
+    /* position: relative; */
+}
+.rate1{
+    /* height: 2px; */
+    position: absolute;
+    bottom: 0;
+    margin: 20px;
+    color: rgb(0, 0, 0);
+    border: 2px;
+    background-color: rgb(255, 67, 67);
+    border-radius: 15px;
+    padding: 5px 15px;
+}
+.cardhead1{
+    position:relative;
+}
+.title{
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+font-family: 'Mochiy Pop One', sans-serif;
+    color:aliceblue;
+}
