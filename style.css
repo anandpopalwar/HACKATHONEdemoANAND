@@ -22,16 +22,11 @@ background: radial-gradient(circle, rgba(27,22,22,1) 0%, rgba(33,42,43,1) 100%);
     /* margin: 0px; */
     width: 70%;
     margin: 50px auto;
-    padding: 50px;
-    /* display: flex; */
     color: snow;
 }
 .container{
     padding-top: 3%;
     padding: 50px;
-    /* text-align: baseline; */
-    /* display: flex; */
-    /* justify-content: center; */
     font-family: 'Edu VIC WA NT Beginner', cursive;
     align-items: center;
     text-align: center;
