@@ -1,40 +1,52 @@
-@import url('https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner:wght@500;700&family=Mochiy+Pop+One&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner:wght@500;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@1,500&family=Lato&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,500;1,500&family=Poppins:wght@500&display=swap'); */
+
 body{
-    /* bac
-    kground-color: darkgray; */background: rgb(27,22,22);
-background: radial-gradient(circle, rgba(27,22,22,1) 0%, rgba(33,42,43,1) 100%);
-    /* background-image: url(./speedfood2.avif); */
-    /* 
-    /* background-size:100%; */
+     background: rgb(16, 16, 16);
+/* background: linear-gradient(180deg, rgba(48,113,231,1) 0%, rgba(0,0,0,1) 57%); */
     align-items: center;
-    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    padding: 0;
+
 }
 .pagecontainer{
-    background-color: black;
-    background-image: url(./speedfood1.avif);
-    background-blend-mode:lighten; 
-    height: 650px;
-    background-size:100%;
-    border-radius: 50px;
-    /* padding: 50px; */
-    /* margin: 0px; */
-    width: 70%;
-    margin: 50px auto;
-    color: snow;
+    /* background-color: #334756; */
+    /* background-image: url(https://source.unsplash.com/1200x450/?food); */
+    /* background-blend-mode:darken;  */
+    /* opacity: 80%; */
+    
+
+    height: 35px;
+    background-size:contain;
+    border-radius: 25px;
+    width: 100%;
+    margin: 40px auto;
+    /* color: black; */
 }
 .container{
-    padding-top: 3%;
+    background-color:#ff9999;
+background-image:
+radial-gradient(at 0% 14%, hsla(42,90%,62%,1) 0px, transparent 50%),
+radial-gradient(at 50% 15%, hsla(292,79%,61%,1) 0px, transparent 50%),
+radial-gradient(at 33% 48%, hsla(138,77%,78%,1) 0px, transparent 50%),
+radial-gradient(at 2% 37%, hsla(232,94%,60%,1) 0px, transparent 50%),
+radial-gradient(at 35% 64%, hsla(286,78%,70%,1) 0px, transparent 50%),
+radial-gradient(at 97% 9%, hsla(65,81%,73%,1) 0px, transparent 50%),
+radial-gradient(at 42% 24%, hsla(110,86%,61%,1) 0px, transparent 50%);
+    height: 11px;
     padding: 50px;
-    font-family: 'Edu VIC WA NT Beginner', cursive;
+    font-family: 'Lato', sans-serif;
     align-items: center;
     text-align: center;
     color: rgb(0, 0, 0);
-    font-size: 40px;
+    font-size: 25px;
+    width: 100%;
 }
 .p1{
-    font-family: 'Edu VIC WA NT Beginner', cursive;
+    font-family: 'Lato', sans-serif;
+    color:rgb(203, 203, 203);
 }
 .btn{
     padding: 5px 25px;
@@ -44,38 +56,56 @@ background: radial-gradient(circle, rgba(27,22,22,1) 0%, rgba(33,42,43,1) 100%);
         border: none;
         margin-top: 50px;
     /* text-color: blueviolet; */
-     font-family: 'Edu VIC WA NT Beginner', cursive;
+    font-family: 'Lato', sans-serif;
     /* font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; */
-    color: rgb(0, 0, 0);
+    color: #ff1010;
 }
 .cardcontainer{
     display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 20px;
 }
 .card{
     border: 0px ;
-    background-color: blueviolet;
-    width: 400px;
-    height: 400px;
-    margin: 30px auto;
+    background-color: #282828;
+    width: 300px;
+    /* height: 350px; */
+    margin: 10px;
     border-radius: 25px;
     padding: 10px;
+    color: rgb(255, 255, 255);
     /* display: flex; */
+    border:  solid 2px transparent ;
+}
+.card:hover{
+    transition: .5s;
+    /* box-shadow: 0px 0px 10px 2px #df0000; */
+    border: 2px solid #ffffff;
 }
 .cardimg1{
-    border-radius: 25px;
+    border-radius: 15px 15px 0 0;
     /* border-bottom-left-radius: 0;
     border-bottom-right-radius: 0; */
     width: 100%;
     image-resolution: cover;
 }
 .cardbtn{
-    padding: 10px 15px;
-    font-size: 10px;
-    border-radius:10px ;
-    background-color: black;
+    /* margin-left:200px ; */
+    padding: 5px 15px;
+    font-size: 20px;
+    /* font:; */
+    border-radius: 0 20px 20px ;
+    /* justify-content:start; */
+    /* align-items: center; */
+    background-color:rgb(227, 227, 227);
+    /* width: 50%; */
     border: none;
+    /* color: #ff9999; */
+    
+    /* font-family: 'lato',sans-serif; */
     /* font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; */
-    color: snow;
+    color: rgb(22, 22, 22);
 }
 .cardhead{
     position:relative;
@@ -84,32 +114,46 @@ background: radial-gradient(circle, rgba(27,22,22,1) 0%, rgba(33,42,43,1) 100%);
     /* height: 2px; */
     position: absolute;
     bottom: 0;
-    margin: 20px;
-    color: rgb(0, 0, 0);
-    border: 2px;
-    background-color: blueviolet;
-    border-radius: 15px;
+    font-size: 13px;
+    margin:0px 0px 5px 5px;
+    color: rgb(237, 219, 15);
+    /* border: 2px; */
+    font-family:'lato',sans-serif;
+    background-color: #e03d3d;
+    border-radius: 10px  10px 10px 0;
     padding: 5px 15px;
 }
+.card h1{
+    margin: 5;
+    font-size: 20px;
+}
+.card p{
+    margin: 5;
+    color: rgb(131, 131, 131);
+}
+
 .h1{
     text-align: center;
     font-size: 50px;
-    color: blueviolet;
-    font-family: 'Edu VIC WA NT Beginner', cursive;
+    color:#df0000;
+    margin: 0;
+    font-family: 'Kanit', sans-serif;
 }
 .head1{
     background-color: coral;
     text-align: center;
+    font-family: 'Kanit', sans-serif;
 }
 .head2{
     background-color: rgb(49, 125, 36);
     text-align: center;
+    font-family: 'Kanit', sans-serif;
 }
 .card1{
     border: 0px ;
     background-color:lightcoral;
     width: 400px;
-    height: 400px;
+    height: 350px;
     margin: 30px auto;
     border-radius: 25px;
     padding: 10px;
@@ -120,7 +164,7 @@ background: radial-gradient(circle, rgba(27,22,22,1) 0%, rgba(33,42,43,1) 100%);
     border: 0px ;
     background-color:rgb(60, 146, 31);
     width: 400px;
-    height: 400px;
+    height: 350px;
     margin: 30px auto;
     border-radius: 25px;
     padding: 10px;
@@ -131,18 +175,156 @@ background: radial-gradient(circle, rgba(27,22,22,1) 0%, rgba(33,42,43,1) 100%);
     /* height: 2px; */
     position: absolute;
     bottom: 0;
-    margin: 20px;
-    color: rgb(0, 0, 0);
+    margin: 5px;
+    color: rgb(255, 255, 255);
     border: 2px;
-    background-color: rgb(255, 67, 67);
+    background-color: rgb(147, 147, 147);
     border-radius: 15px;
     padding: 5px 15px;
 }
 .cardhead1{
     position:relative;
+    /* margin: /; */
 }
 .title{
-    font-family: 'Edu VIC WA NT Beginner', cursive;
-font-family: 'Mochiy Pop One', sans-serif;
-    color:aliceblue;
+    font-family: 'Kanit', sans-serif;
+    /* background: rgb(49,44,221); */
+     background: linear-gradient(180deg, rgba(49,44,221,1) 45% , rgb(138, 232, 217) 23%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 54px;
+    width: 50%;
+}
+ul{
+    display: flex;
+    justify-content:space-evenly;
+    /* flex-wrap: wrap; */
+    font-size: 25px;
+    /* gap: 10px; */
+    font-family: 'Kanit', sans-serif;
+    width: 60%;
+}
+li{
+    display: flex;
+     /* justify-content: space-around; */
+    justify-content: end;
+}
+a{
+    margin: 10px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+.tophead{
+    margin: 15px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    justify-items: center;
+    /* flex-wrap:wrap; */
+    text-align: center;
+    /* height: 50px; */
+}
+.offer{
+    position: fixed;
+    right: 0%;
+    bottom: 0%;
+   width: 40px 40px;
+   height: 200x;
+   color: black;
+   background-color: lightblue;
+   margin: 30px;
+   border-radius:80px 80px 0px 80px;
+   padding: 15px;
+   text-align: center;
+   font-family: 'Poppins', sans-serif;
+}
+.cont-h1{
+    color: rgb(203, 203, 203);
+}
+/* .section{
+    flex-wrap: wrap;
+} */
+@media screen and (max-width:760px){
+    ul{
+        display:none;
+    }
+    .tophead{
+        margin: 15px;
+    /* display: flex; */
+    /* justify-content: space-around; */
+    /* align-items: center; */
+    justify-items: center;
+    /* flex-wrap:wrap; */
+    /* text-align: center; */
+    /* height: 50px; */
+    width: 100%;
+    gap:none;
+    }
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+}
+.orderdetails{
+    width: 350px;
+    background-color: rgb(215, 215, 215);
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    border-radius: 30px;
+    margin: 20px auto;
+    text-align: center;
+    /* display: flex; */
+    /* justify-content: space-between; */
+    /* flex-direction:initial; */
+    /* flex-wrap: wrap-reverse; */
+}
+.orderdetails h1{
+    margin: 5px;
+}
+.orderdetails p{
+    margin: 10;
+}
+.textCenter{
+    background-color: rgb(255, 255, 255);
+    border-radius: 15px;
+}
+.svg{
+    width:300px;
+    height: 300px;
+/*     
+    display: grid;
+    place-items: center;
+    object-fit: contain; */
+}
+.textCenter{
+    text-align: center;
+    /* display: flex;
+    justify-content: space-between;     */
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
+.topper{
+    margin: 0 auto;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-size: cover; */
+}
+.pay{
+    width: 100%;
+    height: 30px;
+    padding:10px 0 10px;
+    background-color: dodgerblue;
+    border-radius: 15px;
+    margin-top: 10px;
+    /* align-items: cente
+    r; */
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    cursor: pointer;
+    font-size: 20px;
 }
