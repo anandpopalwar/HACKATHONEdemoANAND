@@ -190,7 +190,7 @@ radial-gradient(at 42% 24%, hsla(110,86%,61%,1) 0px, transparent 50%);
     font-family: 'Kanit', sans-serif;
     /* background: rgb(49,44,221); */
      background: linear-gradient(180deg, rgba(49,44,221,1) 45% , rgb(138, 232, 217) 23%);
-    -webkit-background-clip: text;
+    /* -webkit-background-clip: text; */
     -webkit-text-fill-color: transparent;
     font-size: 54px;
     width: 50%;

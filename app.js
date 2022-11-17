@@ -36,15 +36,15 @@ function orderfood(e){
     gst=prize*GST_CHARGES
     total= parseInt(prize+charge+gst)
     
-    document.getElementById('prize').innerText=prize;
+    document.getElementById('prize').innerText=prize + "₹";
 
-    document.getElementById('charge').innerText=charge;
-    document.getElementById('gst').innerText=gst;
+    document.getElementById('charge').innerText=charge+ "₹";
+    document.getElementById('gst').innerText=Math.floor(gst) ;
     
-    document.getElementById('total').innerText=total;
+    document.getElementById('total').innerText=total+ "₹";
    
    
    
     console.log(name,prize,charge,total)
-    pay.innerText= `pay to proceed >`+ total
+    pay.innerText= `pay to proceed >`+ total+ "₹"
 }
