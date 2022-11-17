@@ -9,11 +9,16 @@ orderDetails.style.display='none'
 
 // items.forEach((item)=>{
 //     // console.log(item)
+// let  rate=document.querySelectorAll('#rate')
 //     item.addEventListener('click', orderfood)
 // })
-
+// console.log(rate)
 items.forEach((item)=>{
     item.addEventListener('click',orderfood)
+    // if(rate>4.5){
+    //     console.log('ok')
+    // }
+
 })
 
 
